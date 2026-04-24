@@ -51,7 +51,7 @@ SELECT user_id, COUNT (*) AS post_count FROM posts GROUP BY user_id;
 -- 8. Show only the user_id values for users who have written more than 2 posts.
 --    Include the post count. Name the count column post_count.
 
-SELECT user_id,  COUNT(*) AS post_count FROM posts GROUP BY user_id HAVING COUNT(*) > 2
+SELECT user_id,  COUNT(*) AS post_count FROM posts GROUP BY user_id HAVING COUNT(*) > 2;
 
 -- ============================================================
 -- Part 4: JOIN Queries
